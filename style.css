@@ -19,22 +19,38 @@ p {
 
 #box {
   margin-top: 7rem;
-  margin-left: 24rem;
+  margin-left: 20rem;
   margin-right: auto;
   padding-top: 6rem;
-  padding-bottom: 4rem;
+  padding-bottom: 5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   max-width: 50%;
   background-color: #006241;
+}
+
+#button1 {
+  background-color: rgba(0, 117, 74, 0.7);
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 40px;
+  border: 1px solid white;
 }
 
 a.hover,
 a.focus,
 a.active {
-  color: rgba(0, 117, 74, 0.5);
+  color: rgba(0, 117, 74, 0.7);
 }
 
 #nav-list {
-  text-align: center;
+  text-align: right;
   margin-top: 4rem;
   margin-right: 9rem;
 }
@@ -50,6 +66,7 @@ a.active {
 
 #nav-list ul li a {
   text-align: center;
+  font-size: 1.25rem;
   width: 170px;
   padding: 1em;
   text-decoration: none;
@@ -61,7 +78,7 @@ a.active {
   float: left;
   margin-left: 3rem;
   margin-right: auto;
-  width: 5%;
+  width: 3%;
 }
 
 .center-image {
