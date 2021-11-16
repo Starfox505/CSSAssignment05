@@ -1,0 +1,14 @@
+header {
+  background-color: #f2f0eb;
+}
+
+body {
+  background-color: #006241;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
