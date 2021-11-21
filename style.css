@@ -81,10 +81,10 @@ h2 {
   border: 1px solid rgb(3, 3, 3);
 }
 
-a.hover,
-a.focus,
-a.active {
-  color: rgba(0, 117, 74, 0.7);
+a:hover,
+a:focus,
+a:active {
+  color: rgb(0, 0, 0);
 }
 
 #nav-list {
@@ -118,6 +118,8 @@ a.active {
   text-align: left;
   margin-right: 80rem;
   position: relative;
+  line-height: 3rem;
+  font-size: 1.25rem;
 }
 
 ul {
